@@ -223,27 +223,6 @@ footer p {
 .hide {
   display: none;
 }
-.left {
-  display: inline-block;
-  float: left;
-  box-sizing: 50%;
-  padding-right: 50px;
-}
-.right{
-  display: inline-block;
-  float: left;
-  box-sizing: 50%;
-}
-
-#reg {
-  background: blue;
-  color: white;
-  font-size: 25px;
-}
-
-.formsubmit {
-  border: 1px solid black;
-}
 
 /******************************************
 /* ADDITIONAL STYLES

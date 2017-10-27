@@ -1,8 +1,10 @@
 /*
-Project Name: homework 7
-Client: Relaxr
-Author: Rob Maniaci
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
 */
+
 
 /******************************************
 /* SETUP
@@ -62,7 +64,8 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  width: auto;
+  max-width: 960px;
   margin: 0 auto;
 }
 .logo {
@@ -97,7 +100,6 @@ header nav ul li a {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
   padding-top: 32px;
-  background-size: 100%;
 }
 
 #hero .logo {
@@ -149,7 +151,6 @@ h3 {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
   padding: 70px 0 70px;
   color: #fff;
-  background-size: 100%;
 }
 blockquote {
   font-size: 36px;
@@ -168,7 +169,8 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
@@ -287,209 +289,112 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-/**/
 
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-  header {
-    padding: 10px;
-  }
-  h3 {
-    font-size: 30px;
-  }
-  .logo {
-    font-size: 36px;
-  }
-  header nav {
-    width: 100%;
-    margin: 0;
-  }
-  header nav ul li{
-    float: none;
-    display: block;
-    margin: 0;
-    font-size: 18px;
-  }
-  header nav ul li:first-child{
-    display:block;
-    position: absolute;
-    top:.6em;
-    right:.75em;
-  }
-  header nav ul li a {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-  }
-  header nav ul{
-    height:0;
-    transition:height 1s;
-    overflow: hidden;
-  }
-  header nav ul.slideDown {
-    height: 10em;
-  }
-  #hero {
-    height: auto;
-    padding: 30px 0 50px;
-  }
-  #hero h2 {
-    font-size: 28px;
-    margin: 40px 0 60px;
-  }
-  #benefits {
-    padding: 30px 0;
-  }
-  #benefits p, #benefits ul {
-    width: 82%;
-    margin: 0 auto 20px;
-  }
-  blockquote {
-    font-size: 20px;
-    width: 90%;
-  }
-  #main {
-    margin-top: 25px;
-  }
-  footer .logo, footer ul li {
-    margin-bottom: 30px;
-  }
-  #posts, #sidebar {
-    margin: 0 auto;
-    width: 95%;
-    display: block;
-  }
-  .post h2 {
-    font-size: 24px;
-  }
-  .post p {
-    font-size: 18px;
-  }
-  .post p:first-of-type:first-letter {
-    float: none;
-    font-size: 18px;
-    line-height: 18px;
-    padding: 0;
-    font-weight: 300;
-  }
-  .post img {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  #sidebar h3 {
-    font-size: 24px;
-  }
-  #sidebar ul li a, #sidebar p {
-    font-size: 18px;
-  }
-  #sidebar img {
-    display: none;
-  }
+header nav{
+  width: auto;
 }
-/**/
-
-@media only screen and (max-width: 384px) {
-  body {
-    font-size: 14px;
+nav ul{
+  width: auto;
+}
+nav li{
+  width: auto;
+}
+.hero {
+  width: auto;
+}
+.benefits{
+  width: auto;
+}
+.benefits h3, p, ul, li{
+  width: auto !important;
+  max-width: 600px;
+}
+.testimonial{
+  width: auto;
+}
+.testimonial h3, p, ul, li{
+  width: auto !important;
+  max-width: 600px;
+  tex
+}
+.testimonial blockquote, span{
+  width: auto !important;
+}
+.bottom-cta{
+  width: auto;
+}
+.bottom-cta a{
+  width: auto;
+  max-width: 240px;
+}
+.footer{
+  width: auto;
+}
+.footer h4, ul, li, p{
+  width: auto;
+}
+.posts{
+  width: 75%;
+}
+.sidebar{
+  width: 25%;
+}
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 1.646em;
   }
-  header {
-    padding: 5px;
+  h3{
+    font-size: 1.034em;
   }
-  h3 {
-    font-size: 15px;
-  }
-  .logo {
-    font-size: 18px;
-  }
-  header nav {
-    width: 100%;
-    margin: 0;
+  .logo{
+    font-size: 1.241em;
   }
   header nav ul li{
-    float: none;
-    display: block;
-    margin: 0;
-    font-size: 12px;
+    font-size: 0.823em;
   }
-  header nav ul li:first-child{
-    display:block;
-    position: absolute;
-    top:.6em;
-    right:.75em;
+  h2{
+    font-size: 1.646em;
   }
-  header nav ul li a {
-    display: block;
+  .button{
+    font-size: 0.828em;
+  }
+  .blue{
+    font-size: .828em;
+  }
+  h3{
+    font-size: 1.379em;
+  }
+  blockquote{
+    font-size: 1.241em;
+  }
+  .post h2{
+    font-size: .879em;
+  }
+  .post p{
+    font-size: 0.628em;
+  }
+  .post p:first-of-type:first-letter{
+
+  }
+  .posts{
+  width: 100% !important;
+}
+  .sidebar{
+  width: 100% !important;
+  }
+  img{
     width: 100%;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
   }
-  header nav ul{
-    height:0;
-    transition:height 1s;
-    overflow: hidden;
+  .sidebar h3{
+    font-size: .9em;
   }
-  header nav ul.slideDown {
-    height: 10em;
+  #sidebar ul li a{
+    font-size: .6em;
   }
-  #hero {
-    height: auto;
-    padding: 15px 0 25px;
+  #sidebar p{
+    font-size: .6em;
   }
-  #hero h2 {
-    font-size: 14px;
-    margin: 20px 0 30px;
-  }
-  #benefits {
-    padding: 15px 0;
-  }
-  #benefits p, #benefits ul {
-    width: 82%;
-    margin: 0 auto 10px;
-  }
-  blockquote {
-    font-size: 10px;
-    width: 90%;
-  }
-  #main {
-    margin-top: 12px;
-  }
-  footer .logo, footer ul li {
-    margin-bottom: 15px;
-  }
-  #posts, #sidebar {
-    margin: 0 auto;
-    width: 95%;
-    display: block;
-  }
-  .post h2 {
-    font-size: 12px;
-  }
-  .post p {
-    font-size: 10px;
-  }
-  .post p:first-of-type:first-letter {
-    float: none;
-    font-size: 12px;
-    line-height: 12px;
-    padding: 0;
-    font-weight: 300;
-  }
-  .post img {
-    width: 100%;
-    margin-bottom: 8px;
-  }
-  #sidebar h3 {
-    font-size: 12px;
-  }
-  #sidebar ul li a, #sidebar p {
-    font-size: 12px;
-  }
-  #sidebar img {
+  .mobile_display_none{
     display: none;
   }
 }
